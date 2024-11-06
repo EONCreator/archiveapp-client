@@ -1,0 +1,22 @@
+.helper {
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid whitesmoke;
+
+    .items {
+        padding-top: 15px;
+        padding-left: 20px;
+        width: 100%;
+
+        .item {
+            padding: 10px;
+            padding-top: 20px;
+            width: 100%;
+            display: flex;
+
+            .name {
+                margin-left: 10px;
+            }
+        }
+    }
+}

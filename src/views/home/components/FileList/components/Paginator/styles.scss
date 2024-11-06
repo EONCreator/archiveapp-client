@@ -1,0 +1,28 @@
+.paginator {
+    padding: 0 15px;
+
+    .buttons {
+        display: flex;
+        justify-content: end;
+        
+        .button {
+            padding: 5px 10px;
+            cursor: pointer;
+            border: 1px solid rgb(196, 196, 196);
+            border-left: none;
+            background: white;
+        }
+
+        .button:hover {
+            background: rgb(241, 241, 241);
+        }
+
+        .first {
+            border-left: 1px solid rgb(196, 196, 196);
+        }
+
+        .last {
+            border-left: none;
+        }
+    }
+}
